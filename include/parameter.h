@@ -12,6 +12,7 @@
  6: NSGPT matching, the enhanced GPT matching with norm normalization
  7: NSGPT-sHOG matching, the enhanced GPT matching with norm normalization
     associated with simplified HOG patterns
+ 9:  FNSGPT-Inte (NSGPT-sHOG with integral images)
  11: FGAT (F + matching method = acceleration algorithm)
  12: FGPT
  13: FNGAT
@@ -42,6 +43,7 @@
  3: for simplified HOG patterns
  4: for acceleration calculation simplified HOG patterns
  10: automatical selection of the type of window size using acceleration algorithm
+ 11: automatical selection of the type of window size using acceleration algorithm of integra images
  */
 #define DISTANCETYPE 3
 
